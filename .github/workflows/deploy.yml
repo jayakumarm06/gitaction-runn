@@ -3,7 +3,7 @@ name: Deploy Flask App
 on:
   push:
     branches:
-      - main
+    - main
 
 env:
   HEALTHCHECK_URL: http://174.129.134.54:5000
