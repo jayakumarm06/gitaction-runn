@@ -56,5 +56,5 @@ jobs:
               sleep 5
             fi
           done
-          echo "❌ Health check failed"
+          echo "❌ Health check failed.."
           exit 1
