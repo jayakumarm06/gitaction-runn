@@ -13,7 +13,7 @@ class TestFlaskApp(unittest.TestCase):
         # Check if the status code is 200
         self.assertEqual(response.status_code, 200)
         # Check if the response JSON contains the expected message
-        self.assertEqual(response.get_json(), {"message": "Hello, Flask! Your are Welcome"})
+        self.assertEqual(response.get_json(), {"message": "Hello, Flask! You are welcome"})
 
 if __name__ == '__main__':
     unittest.main()
